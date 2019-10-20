@@ -1,0 +1,81 @@
+    1  exit
+    2  ls 
+    3  mkdir user1
+    4  mkdir user2
+    5  ls 
+    6  cd folder1 
+    7  cd user1
+    8  mkdir folder1
+    9  cd ..
+   10  mkdir root 
+   11  chown 700
+   12  chown 7 0 0
+   13  chown root/ 7 0 0 
+   14  chown 7 0 0 root/
+   15  chmod root/ 700
+   16  chmod 7 0 0 root/
+   17  chmmod root/ 700
+   18  chmod root/ 700
+   19  ls 
+   20  chmod 700 root/
+   21  rm -R root/
+   22  ls 
+   23  cd user1
+   24  mkdir folder1
+   25  ls 
+   26  cd folder1
+   27  mkdir main1
+   28  cd ~
+   29  cd home 
+   30  cd /home
+   31  cd user2
+   32  cd ashbringer/
+   33  cd user2
+   34  mkdir folder2
+   35  cd folder2
+   36  mkdir main2
+   37  less /etc/passwd
+   38  ls 
+   39  cd main2
+   40  touch history_root2.txt
+   41  cd ..
+   42  cd..
+   43  cd ..
+   44  ls 
+   45  cd ..
+   46  ls 
+   47  cd ashbringer/
+   48  rm -R user1
+   49  rm -R user2
+   50  cd ..
+   51  cd ashbringer/
+   52  mkdir folder1
+   53  cd folder1
+   54  mkdir main1
+   55  cd main1
+   56  touch history_root1.txt
+   57  cd ~
+   58  cd home
+   59  cd /home
+   60  cd azariel/
+   61  mkdir folder2
+   62  cd folder2/
+   63  mkdir main2
+   64  cd main2/
+   65  touch history_root2.txt
+   66  chown man
+   67  man chown
+   68  cd ~
+   69  cd /home
+   70  man chown
+   71  chown -c ashbringer ashbringer/
+   72  chown -c azariel azariel/
+   73  touch history_root.txt 
+   74  history > history_root.txt 
+   75  cat | more history_root.txt 
+   76  cat history_root.txt 
+   77  man cp
+   78  cd ~
+   79  touch history_root.txt
+   80  history history_root.txt 
+   81  history > history_root.txt 
